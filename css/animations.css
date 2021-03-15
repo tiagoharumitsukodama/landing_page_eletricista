@@ -1,1 +1,11 @@
 
+@keyframes animacaoTeste {
+    0.0%{
+    }
+    17.4%{
+        transform: translate(50px, 100px) scale(1.5) rotate(90deg);
+    }
+    8.2%{
+        transform: translate(50px, 100px) scale(1.5);
+    }
+}

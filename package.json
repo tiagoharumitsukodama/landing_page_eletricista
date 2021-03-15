@@ -1,0 +1,22 @@
+{
+  "name": "divulgacaoeletricista",
+  "version": "1.0.0",
+  "description": "Site de divulgação - Eletricista",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagoharumitsukodama/divulgacaoeletricista.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagoharumitsukodama/divulgacaoeletricista/issues"
+  },
+  "homepage": "https://github.com/tiagoharumitsukodama/divulgacaoeletricista#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

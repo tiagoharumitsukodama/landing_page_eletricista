@@ -1,0 +1,13 @@
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+
+    p {
+        height: 50px;
+        width: 500px;
+        background-color: brown;
+    
+    }
+
+
+  }
+

@@ -1,11 +1,4 @@
-@import './animations.css';
-@import './header.css';
-@import './section.css';
+@import './desktop/main_desktop.css';
+@import './mobile/main_mobile.css';
+@import './tablet/main_tablet.css';
 
-
-body {
-    width: 100vw;
-    height: 100vh;
-
-    background-color: aquamarine;
-}

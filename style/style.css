@@ -1,0 +1,11 @@
+@import './animations.css';
+@import './header.css';
+@import './section.css';
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: aquamarine;
+}

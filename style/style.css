@@ -1,11 +1,21 @@
-@import './animations.css';
-@import './header.css';
-@import './section.css';
-
+@import './desktop/main_desktop.css';
+@import './mobile/main_mobile.css';
+@import './tablet/main_tablet.css';
 
 body {
+    margin: 0px auto;
+    padding: 0px;
     width: 100vw;
-    height: 100vh;
 
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+
+    display: flex;
 }

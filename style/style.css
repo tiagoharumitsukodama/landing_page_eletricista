@@ -125,6 +125,10 @@ section div.container figure {
 }
 
 
+#slider img {
+    height: 340px;
+}
+
 #contato > * {
     margin-top: 20px;
     margin-left: 0px;
@@ -156,12 +160,22 @@ section div.container figure {
     margin-top: 5px;
 }
 
-#contactando div > input {
+#contactando div > input,
+#contactando div > textarea {
     margin-top: 10px;
     height: 1.5rem;
     width: 50%;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+#contactando #Inputdescricao {
+    height: 5.5rem;
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
 }
 
 #contactando div > input[type=submit] {
@@ -171,4 +185,36 @@ section div.container figure {
     padding: 0px 20px;
     margin-top: 20px;
     border-radius: 25px;
+}
+
+#FAQ {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#FAQ .pergunta {
+    width: 90%;
+    height: fit-content;
+    margin-top: 5px;
+    border-bottom: 2px solid gray;
+}
+
+.pergunta > div {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.pergunta > div > h5 {
+   margin-left: 0px;
+}
+
+#FAQ .setaFAQ {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+
+    margin-right: 0px;
 }

@@ -5,8 +5,8 @@
 
 
 img {
-    max-width: 100px;
-    max-height: 10sssssss0px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -17,11 +17,12 @@ img {
 
 body {
     position: relative;
-    max-width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 header {
     width: 100%;
@@ -59,6 +60,7 @@ header a {
 nav {
     width: 100%;
     background-color: #13436b;
+    margin-bottom: 50px;
 
     z-index: 1;
     position: -webkit-sticky;
@@ -78,15 +80,14 @@ nav ul li {
 
 section div.container {
     position: relative;
-    margin-top: 50px;
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: 340px;
     padding: 0px;
     width: 100%;
-
-    overflow: auto;
+    border: 1px solid black;
+    margin-top:1px;
     
-    background-color: rgba(64, 224, 208, 0.096);
+    background-color: rgba(11, 226, 205, 0.096);
 }
 
 section div.container div.info {
@@ -110,4 +111,64 @@ section div.container figure {
     width: 50%;
     height: 100%;
     background-color: rgba(255, 99, 71, 0.247);
+}
+
+.infoContato {
+    padding: 5px;
+    margin-top: 10px;
+    height:fit-content;
+    width: auto;
+    border-radius: 15px;
+
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+}
+
+
+#contato > * {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#contactando figure {
+    position: absolute;
+    left: 0px;
+}
+
+#contactando div {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+
+    background-color:rgba(255, 255, 0, 0.63);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#contactando h4, 
+#contactando h6 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#contactando div > input {
+    margin-top: 10px;
+    height: 1.5rem;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+#contactando div > input[type=submit] {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 0px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
 }

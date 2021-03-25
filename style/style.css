@@ -84,10 +84,8 @@ section div.container {
     height: 340px;
     padding: 0px;
     width: 100%;
-    border: 1px solid black;
     margin-top:1px;
-    
-    background-color: rgba(11, 226, 205, 0.096);
+    margin-bottom: 50px;
 }
 
 section div.container div.info {
@@ -101,7 +99,6 @@ section div.container div.info {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: thistle;
 }
 
 section div.container figure {
@@ -110,7 +107,6 @@ section div.container figure {
     top: 0px;
     width: 50%;
     height: 100%;
-    background-color: rgba(255, 99, 71, 0.247);
 }
 
 .infoContato {
@@ -164,7 +160,7 @@ section div.container figure {
 #contactando div > textarea {
     margin-top: 10px;
     height: 1.5rem;
-    width: 50%;
+    width: 75%;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.144);
 }
@@ -183,7 +179,7 @@ section div.container figure {
     color: white;
     width: fit-content;
     padding: 0px 20px;
-    margin-top: 20px;
+    margin-top: 35px;
     border-radius: 25px;
 }
 
@@ -211,10 +207,43 @@ section div.container figure {
    margin-left: 0px;
 }
 
+.pergunta:hover p{
+    display: block;
+}
+
+.pergunta > p {
+    display: none;
+}
+
 #FAQ .setaFAQ {
     width: 10px;
     height: 10px;
     background-color: black;
 
     margin-right: 0px;
+}
+
+footer {
+    margin: 0px auto;
+    height: 8vh;
+    width: inherit;
+
+    background-color: black;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer ul li {
+    color: rgb(65, 176, 212);
+}
+
+footer p {
+    text-align: center;
+    color: white;
 }

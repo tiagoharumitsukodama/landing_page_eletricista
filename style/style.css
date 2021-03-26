@@ -306,10 +306,10 @@ section #contactando div.enviarEmail {
 }
 
 footer {
-    margin: 0px auto;
+    margin: 10px auto;
+    padding-top: 10px;
     height: 8vh;
-    width: inherit;
-
+    width: 100%;
     background-color: black;
     color: white;
 }

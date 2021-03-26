@@ -5,10 +5,9 @@
 
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 340px;
+    height: 340px;
 }
-
 
 * {
     margin: 0px auto;
@@ -23,13 +22,11 @@ body {
     align-items: center;
 }
 
-
 header {
     width: 100%;
     min-height: 35vh;
     margin: 0px auto;
     background-color: #02569b;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,7 +58,6 @@ nav {
     width: 100%;
     background-color: #13436b;
     margin-bottom: 50px;
-
     z-index: 1;
     position: -webkit-sticky;
     position: sticky;
@@ -78,38 +74,122 @@ nav ul li {
     color: rgba(245, 245, 245, 0.788);
 }
 
-section div.container {
+section #sobre {
     position: relative;
-    width: 100%;
+    width: 680px;
     height: 340px;
     padding: 0px;
-    width: 100%;
     margin-top:1px;
     margin-bottom: 50px;
 }
 
-section div.container div.info {
+section #sobre div.info {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 50%;
+    bottom: 0px;
+    width: 49%;
     height: 100%;
-
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-section div.container figure {
+section #sobre figure {
     position: absolute;
     right: 0px;
     top: 0px;
-    width: 50%;
+    bottom: 0px;
+    width: 49%;
     height: 100%;
 }
 
-.infoContato {
+section #servicos {
+    position: relative;
+    width: 680px;
+    height: 340px;
+    padding: 0px;
+    margin-top:1px;
+    margin-bottom: 50px;
+}
+
+section #servicos div.info {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section #servicos figure {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 49%;
+    height: 100%;
+}
+
+section #funcionamento {
+    position: relative;
+    width: 680px;
+    height: 340px;
+    padding: 0px;
+    margin-top:1px;
+    margin-bottom: 50px;
+}
+
+section #funcionamento div.info {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section #funcionamento figure {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 49%;
+    height: 100%;
+}
+
+section #slider {
+    position: relative;
+    width: 680px;
+    height: 340px;
+    padding: 0px;
+    margin-top:1px;
+    margin-bottom: 50px;
+}
+
+section #slider img {
+    height: 340px;
+}
+
+section #contato {
+    position: relative;
+    width: 680px;
+    height: 340px;
+    padding: 0px;
+    margin-top:1px;
+    margin-bottom: 50px;
+}
+
+section #contato .infoContato {
     padding: 5px;
     margin-top: 10px;
     height:fit-content;
@@ -120,23 +200,25 @@ section div.container figure {
     background-color: rgb(226, 226, 226);
 }
 
-
-#slider img {
+section #contactando {
+    position: relative;
+    width: 680px;
     height: 340px;
+    padding: 0px;
+    margin-top:1px;
+    margin-bottom: 50px;
 }
 
-#contato > * {
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#contactando figure {
+section #contactando figure {
     position: absolute;
     left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 49%;
+    height: 100%;
 }
 
-#contactando div {
+section #contactando div.enviarEmail {
     position: absolute;
     right: 0px;
     width: 50%;

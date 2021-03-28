@@ -113,11 +113,16 @@
             <div class="enviarEmail">
                 <h4>Converse conosco</h4>
                 <h6>blablablalbbalbalbalbalbalba</h6>
-                <input type="text" name="InputNome" id="InputNome">
-                <input type="email" name="Inputemail" id="Inputemail">
-                <textarea name="Inputdescricao" id="Inputdescricao" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
-            </div>
+
+                <form
+                    action="https://formspree.io/f/xdoynbdq"
+                    method="POST">
+                        <input type="email" name="_replyto" id="InputNome" placeholder="Email">
+                        <textarea name="message" id="Inputdescricao" cols="30" rows="10">Eu estou com problemas para ...
+                        </textarea>
+                        <p id="my-form-status" style="display: none;"></p>
+                        <button type="submit" value="send">Enviar</button>
+                </form>
         </div>
         <div class="container" id="FAQ">
             <h3>Perguntas frequentes FAQ</h3>

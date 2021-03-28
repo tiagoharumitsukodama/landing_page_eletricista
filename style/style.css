@@ -246,9 +246,6 @@ section #contactando div.enviarEmail {
     margin-top: 5px;
 }
 
-<<<<<<< HEAD
-#contactando div form * {
-=======
 #contactando div.enviarEmail form {
     width: 75%;
     height: 100%;
@@ -259,7 +256,6 @@ section #contactando div.enviarEmail {
 }
 
 #contactando div.enviarEmail form * {
->>>>>>> 803a7174fb9dea4306e27a4f40d48a5bd988a08d
     margin-top: 10px;
     height: 1.5rem;
     width: 100%;

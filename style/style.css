@@ -281,9 +281,7 @@ section #contactando div.enviarEmail {
 }
 
 #FAQ {
-    border: 1px solid black;
-
-    height: fit-content;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -304,10 +302,6 @@ section #contactando div.enviarEmail {
 
 .pergunta > div > h5 {
    margin-left: 0px;
-}
-
-.pergunta:hover p{
-    display: block;
 }
 
 .pergunta > p {

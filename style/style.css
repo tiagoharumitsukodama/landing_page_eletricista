@@ -263,7 +263,7 @@ section #contactando div.enviarEmail {
     border: 1px solid rgba(128, 128, 128, 0.144);
 }
 
-#contactando #Inputdescricao {
+#contactando div.enviarEmail form textarea {
     height: 7rem;
 
     padding: 12px 20px;

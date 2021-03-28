@@ -12,7 +12,12 @@
 <body>
 
     <header>
-        <h1>Kodama.tec</h1>
+        <picture>
+            <source srcset="images/logo_fill_white_mobile.png" media="(max-width: 500px)">
+            <source srcset="images/logo_fill_white_tablet.png" media="(max-width: 850px)">
+            <source srcset="images/logo_fill_white_desktop.png">
+            <img src="img_flowers.jpg" alt="Logo">
+          </picture>
         <h2>Meu serviço a seu serviço</h2>
         <a href="">Peça seu orçamento</a>
     </header>
@@ -125,7 +130,7 @@
                 <input type="text" name="telefone" id="telefone" placeholder="Telefone">
                 <textarea name="message" placeholder="Nos diga o problema a ser resolvido."></textarea>
 
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
                 </form>
                 <p id='my-form-status'></p>
             </div>

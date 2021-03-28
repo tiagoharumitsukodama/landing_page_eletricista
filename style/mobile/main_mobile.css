@@ -1,0 +1,300 @@
+
+/* For mobile: */
+@media only screen and (max-width: 850px) {
+
+
+    img {
+        width: 340px;
+        height: 340px;
+    }
+    
+    * {
+        margin: 0px auto;
+        padding: 0px;
+    }
+    
+    body {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header {
+        width: 100%;
+        min-height: 35vh;
+        margin: 0px auto;
+        background-color: #02569b;;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header h2 {
+        font-family: fontLogo;
+        color: #939597;
+    }
+    
+    header a {
+        padding: 5px 20px;
+        margin-top: 2vh;
+        border-radius: 30px;
+        text-decoration: none;
+        background-color: #079DB2;
+        color: white;
+    }
+    
+    nav {
+        width: 100%;
+        background-color: #13436b;
+        margin-bottom: 50px;
+        z-index: 1;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul li {
+        padding-top: 15px;
+        list-style-type: none;
+        color: rgba(245, 245, 245, 0.788);
+    }
+    
+    section {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    section #sobre {
+        width: 100%;
+        height: 340px;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 50px;
+    }
+    
+    section #sobre div.info {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: tomato;
+    }
+    
+    section #sobre figure {
+        display: none;
+    }
+    
+    section #servicos {
+        width: 100%;
+        height: 340px;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 50px;
+    }
+    
+    section #servicos div.info {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color:teal;
+    }
+    
+    section #servicos figure {
+        display: none;
+    }
+    
+    section #funcionamento {
+        width: 100%;
+        height: 340px;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 50px;
+    }
+    
+    section #funcionamento div.info {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color:turquoise;
+    }
+    
+    section #funcionamento figure {
+        display: none;
+    }
+    
+    section #slider {
+        width: 100%;
+        height: 340px;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 50px;
+    }
+    
+    section #slider img {
+        height: 340px;
+    }
+    
+    section #contato {
+        width: 100%;
+        height: 340px;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 10px;
+    }
+    
+    section #contato .infoContato {
+        padding: 5px;
+        margin-top: 10px;
+        height:fit-content;
+        width: auto;
+        border-radius: 15px;
+    
+        text-align: center;
+        background-color: rgb(226, 226, 226);
+    }
+    
+    section #contactando {
+        width: 100%;
+        height: 340px;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 50px;
+    }
+    
+    section #contactando figure {
+        display: none;
+    }
+    
+    section #contactando div.enviarEmail {    
+        background-color:rgba(255, 255, 0, 0.63);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #contactando div.enviarEmail h4, 
+    #contactando div.enviarEmail h6 {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    #contactando div.enviarEmail form {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #contactando div.enviarEmail form * {
+        margin-top: 10px;
+        height: 1.5rem;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.144);
+    }
+    
+    #contactando div.enviarEmail form textarea {
+        height: 7rem;
+    
+        padding: 12px 20px;
+        box-sizing: border-box;
+        font-size: 16px;
+        resize: none;
+    }
+    
+    #contactando form button{
+        background-color: black;
+        color: white;
+        width: fit-content;
+        padding: 0px 20px;
+        border-radius: 25px;
+    }
+    
+    #FAQ {
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #FAQ .pergunta {
+        width: 90%;
+        height: fit-content;
+        margin-top: 5px;
+        border-bottom: 2px solid gray;
+    }
+    
+    .pergunta > div {
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    
+    .pergunta > div > h5 {
+       margin-left: 0px;
+    }
+    
+    .pergunta > p {
+        display: none;
+    }
+    
+    #FAQ .setaFAQ {
+        width: 10px;
+        height: 10px;
+        background-color: black;
+    
+        margin-right: 0px;
+    }
+    
+    footer {
+        margin: 10px 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        height: 8vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    
+    footer ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    footer ul li {
+        color: rgb(65, 176, 212);
+    }
+    
+    footer p {
+        text-align: center;
+        color: white;
+    }
+
+
+/* Fim */
+}

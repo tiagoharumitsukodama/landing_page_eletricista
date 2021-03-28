@@ -17,6 +17,7 @@ img {
 body {
     position: relative;
     width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,6 +73,11 @@ nav ul li {
     padding-top: 15px;
     list-style-type: none;
     color: rgba(245, 245, 245, 0.788);
+}
+
+section {
+    width: 100%;
+    height: fit-content;
 }
 
 section #sobre {
@@ -185,6 +191,7 @@ section #contato {
     width: 680px;
     height: 340px;
     padding: 0px;
+    padding-top: 50px;
     margin-top:1px;
     margin-bottom: 50px;
 }
@@ -207,6 +214,7 @@ section #contactando {
     padding: 0px;
     margin-top:1px;
     margin-bottom: 50px;
+    border: 1px solid transparent;
 }
 
 section #contactando figure {
@@ -232,22 +240,35 @@ section #contactando div.enviarEmail {
     align-items: center;
 }
 
-#contactando h4, 
-#contactando h6 {
+#contactando div.enviarEmail h4, 
+#contactando div.enviarEmail h6 {
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
+<<<<<<< HEAD
 #contactando div form * {
+=======
+#contactando div.enviarEmail form {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contactando div.enviarEmail form * {
+>>>>>>> 803a7174fb9dea4306e27a4f40d48a5bd988a08d
     margin-top: 10px;
     height: 1.5rem;
-    width: 75%;
+    width: 100%;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.144);
 }
 
-#contactando #Inputdescricao {
-    height: 5.5rem;
+#contactando div.enviarEmail form textarea {
+    height: 7rem;
 
     padding: 12px 20px;
     box-sizing: border-box;
@@ -255,16 +276,17 @@ section #contactando div.enviarEmail {
     resize: none;
 }
 
-#contactando div > input[type=submit] {
+#contactando form button{
     background-color: black;
     color: white;
     width: fit-content;
     padding: 0px 20px;
-    margin-top: 35px;
     border-radius: 25px;
 }
 
 #FAQ {
+    border: 1px solid black;
+
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -305,10 +327,11 @@ section #contactando div.enviarEmail {
 }
 
 footer {
-    margin: 0px auto;
+    margin: 10px 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
     height: 8vh;
-    width: inherit;
-
+    width: 100%;
     background-color: black;
     color: white;
 }

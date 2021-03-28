@@ -6,17 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kodama-tec</title>
     <link rel="stylesheet" type="text/css" href="./style/style.css">
-    <script src="./script/script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script type='module' src="./script/script.js" defer></script>
 </head>
 <body>
+
     <header>
-        <p>
-            exemplo
-        </p>
+        <h1>Kodama.tec</h1>
+        <h2>Meu serviço a seu serviço</h2>
+        <a href="">Peça seu orçamento</a>
     </header>
 
+    <nav>
+        <ul>
+            <li>Eletricista</li>
+            <li>Projetos de eletricista</li>
+            <li>Quadros de luz</li>
+        </ul>
+    </nav>
+
     <section>
+        <div class="container" id="sobre">
+            <div class="info">
+                <h4>Quem é Kodama.tec?</h4>
+                <h5>blablablalbbalbalbalbalbalba</h5>
+            </div>
+            <figure>
+                <img src="./images/exemplo3.jpeg" alt="aleatoria">
+            </figure>
+        </div>
+        <div class="container" id="servicos">
+            <div class="info">
+                <h4>Quais são os seus serviços?</h4>
+                <h5>blablablalbbalbalbalbalbalba</h5>
+            </div>
+            <figure>
+                <img src="./images/exemplo3.jpeg" alt="aleatoria">
+            </figure>
+        </div>
+        <div class="container" id="funcionamento">
+            <div class="info">
+                <h4>Como funciona?</h4>
+                <h5>blablablalbbalbalbalbalbalba</h5>
+            </div>
+            <figure>
+                <img src="./images/exemplo3.jpeg" alt="aleatoria">
+            </figure>
+        </div>
+        <div class="container" id="slider">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./images/exemplo4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                <div class="carousel-item">
+                    <img src="./images/exemplo5.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="container" id="contato">
+            <div class="row" style="text-align: center;">
+                <h2>Contato</h2>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class='infoContato'>
+                        <h4>Telefone</h4>
+                        <h6>(11) 6999-9999</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class='infoContato'>
+                        <h4>Email</h4>
+                        <h6>email@email.com</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class='infoContato'>
+                        <h4>Atendimento</h4>
+                        <h6>Região de São Paulo</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class='infoContato'>
+                        <h4>Horários</h4>
+                        <h6>Segunda a Sexta 9:00 ~ 20:00</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="contactando">
+            <figure>
+                <img src="./images/exemplo3.jpeg" alt="converse_conosco">
+            </figure>
+            <div class="enviarEmail">
+                <h4>Converse conosco</h4>
+                <h6>blablablalbbalbalbalbalbalba</h6>
+                <input type="text" name="InputNome" id="InputNome">
+                <input type="email" name="Inputemail" id="Inputemail">
+                <textarea name="Inputdescricao" id="Inputdescricao" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </div>
+        </div>
+        <div class="container" id="FAQ">
+            <h3>Perguntas frequentes FAQ</h3>
+            <h4>Como posso fazer tal coisa?</h4>
+                <div class="pergunta">
+                    <div><h5>Blablabla?</h5><div class="setaFAQ"></div></div>
+                    <p>Blablbabla!</p>
+                </div>
+                <div class="pergunta">
+                    <div><h5>Blablabla?</h5><div class="setaFAQ"></div></div>
+                    <p>Blablbabla!</p>
+                </div>
+                <div class="pergunta">
+                    <div><h5>Blablabla?</h5><div class="setaFAQ"></div></div>
+                    <p>Blablbabla!</p>
+                </div>
+                <div class="pergunta">
+                    <div><h5>Blablabla?</h5><div class="setaFAQ"></div></div>
+                    <p>Blablbabla!</p>
+                </div>
+        </div>
 
     </section>
+
+    <footer>
+        <ul>
+            <li>Algo</li>
+            <li>Algo</li>
+            <li>Algo</li>
+        </ul>
+        <p>email@email</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body>
 </html>

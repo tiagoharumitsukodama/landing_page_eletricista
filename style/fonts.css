@@ -1,0 +1,9 @@
+@font-face {
+font-family: fontLogo;
+src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+font-family: fontLogoBold;
+src: url(../fonts/Orbitron/static/Orbitron-ExtraBold.ttf);
+}

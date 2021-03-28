@@ -113,10 +113,17 @@
             <div class="enviarEmail">
                 <h4>Converse conosco</h4>
                 <h6>blablablalbbalbalbalbalbalba</h6>
-                <input type="text" name="InputNome" id="InputNome">
-                <input type="email" name="Inputemail" id="Inputemail">
-                <textarea name="Inputdescricao" id="Inputdescricao" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
+                <form
+                action="https://formspree.io/f/xdoynbdq"
+                method="POST"
+              >
+
+                  <input type="email" name="_replyto">
+                  <textarea name="message"></textarea>              
+                <!-- your other form fields go here -->
+              
+                <button type="submit">Send</button>
+              </form>
             </div>
         </div>
         <div class="container" id="FAQ">

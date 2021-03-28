@@ -238,8 +238,7 @@ section #contactando div.enviarEmail {
     margin-top: 5px;
 }
 
-#contactando div > input,
-#contactando div > textarea {
+#contactando div form * {
     margin-top: 10px;
     height: 1.5rem;
     width: 75%;

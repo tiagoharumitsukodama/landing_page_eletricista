@@ -1,5 +1,4 @@
 var form = document.querySelector('form');
-    
 async function handleSubmit(event) {
 
   event.preventDefault();
@@ -21,6 +20,19 @@ async function handleSubmit(event) {
     status.style.display = 'block';
   });
 }
-
 form.addEventListener("submit", handleSubmit)
+
+
+var perguntas = document.querySelectorAll('.pergunta');
+perguntas.forEach( pergunta => {
+
+  pergunta.addEventListener('click', () => {
+
+    perguntas.forEach( elemento => {
+      elemento.childNodes[3].style.display = 'none'
+    })
+
+    pergunta.childNodes[3].style.display = 'block'
+  })
+})
 

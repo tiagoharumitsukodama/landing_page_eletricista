@@ -1,4 +1,4 @@
-# divulgacaoeletricista
+# Landing Page Eletricista
 Site de divulgação - Eletricista
 
 ## Descrição do Projeto

@@ -4,8 +4,8 @@ Site de divulgação - Eletricista
 ## Descrição do Projeto
 O projeto possui o objetivo de criar uma página de divulgação para um eletricista local.
 
-<h1 align="center" width='100px' height='100px'>
-  <img alt="NextLevelWeek" title="#Demonstracao" src="./comoUsarEletricista.gif" />
+<h1 align="center">
+  <img alt="NextLevelWeek" width='400px' height='350px'title="#Demonstracao" src="./comoUsarEletricista.gif" />
 </h1>
 
 ### 🎲 Rodando a aplicação
